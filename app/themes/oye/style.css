@@ -1,0 +1,36 @@
+/*
+Theme Name: Oye Theme
+Theme URI: http://wordpress.com/
+Author: Khanakia
+Author URI: https://wordpress.com/
+Description: Custom Theme Designed
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: customtheme
+Text Domain: oyetheme
+*/
+
+@import url('assets/css/fonts.css');
+@import url('assets/css/icomoon.css');
+
+.owl-common .owl-dots {
+	position: relative;
+	margin-top: -50px !important;
+	height: 50px;
+	text-align: center;
+	z-index: 99;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+	background: transparent;
+	border: 1px solid #fff;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+	background: #fff;
+}
+
+.owl-carousel .owl-stage-outer {
+	-webkit-transform: initial;
+}

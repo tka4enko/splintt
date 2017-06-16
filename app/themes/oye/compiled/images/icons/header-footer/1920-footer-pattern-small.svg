@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 336.153" enable-background="new 0 0 1920 336.153" xml:space="preserve" preserveAspectRatio="xMaxYMin">
+<g id="Corner-pattern">
+	<polyline fill="#FFFFFF" points="319.968,0.126 0,0.126 159.982,67.334 	"/>
+	<polyline fill="#FFFFFF" points="639.936,0.126 319.968,0.126 479.95,67.334 	"/>
+	<polyline fill="#FFFFFF" points="959.904,0.126 639.936,0.126 799.918,67.334 	"/>
+	<polyline fill="#FFFFFF" points="1279.871,0.126 959.904,0.126 1119.886,67.334 	"/>
+	<polyline fill="#FFFFFF" points="1599.839,0.126 1279.871,0.126 1439.854,67.334 	"/>
+	<polyline fill="#FFFFFF" points="1920,0.126 1600.032,0.126 1760.014,67.334 	"/>
+</g>
+<g id="Color-pattern">
+	<g opacity="0.9">
+		<polygon fill="#D2C3E0" points="959.904,67.207 959.904,134.414 799.921,67.229 959.904,0 		"/>
+		<polygon fill="#DDECCB" points="639.94,67.254 639.94,0.047 799.923,67.232 639.94,134.462 		"/>
+		<polygon fill="#BDDDC6" points="639.937,67.254 639.937,134.461 479.953,67.276 639.937,0.047 		"/>
+		<polygon fill="#80C096" points="479.956,134.483 479.956,67.276 639.94,134.461 479.956,201.69 		"/>
+		<polygon fill="#2BAA6D" points="639.94,201.669 639.94,268.876 479.956,201.691 639.94,134.462 		"/>
+		<polygon fill="#B4C9E1" points="319.964,67.298 319.964,134.505 159.981,67.319 319.964,0.09 		"/>
+		<polygon fill="#3484BB" points="319.967,201.713 319.967,268.92 159.984,201.735 319.967,134.506 		"/>
+		<polygon fill="#006BA9" points="159.984,268.941 159.984,201.734 319.967,268.919 159.984,336.148 		"/>
+		<polygon fill="#B9E5FA" points="319.972,67.296 319.972,0.089 479.955,67.274 319.972,134.503 		"/>
+		<polygon fill="#6FCFF5" points="479.955,134.483 479.955,201.69 319.972,134.505 479.955,67.276 		"/>
+		<polygon fill="#E7C6DE" points="0,67.345 0,0.138 159.983,67.323 0,134.552 		"/>
+		<polygon fill="#D592BF" points="159.983,134.531 159.983,201.738 0,134.553 159.983,67.324 		"/>
+		<polygon fill="#C761A4" points="0,201.759 0,134.552 159.983,201.737 0,268.966 		"/>
+		<polygon fill="#BB1F8A" points="159.983,268.945 159.983,336.153 0,268.967 159.983,201.738 		"/>
+	</g>
+</g>
+</svg>

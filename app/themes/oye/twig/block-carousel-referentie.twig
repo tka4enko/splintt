@@ -1,0 +1,56 @@
+<div class="referentieCt">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                {% if title %}
+                    <h2 class="color-pink text-center mt30 mb50">{{title}}</h2>
+                {% endif %}
+                <div class="inner">
+                    <div class="left-part">
+                        <div id="referentie-carousal" class="carousel slide" data-ride="carousel">
+                            <!--Indicators-->
+                            <ol class="carousel-indicators">
+                            	{{sliderindicators}}
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                            	{{slideritems}}
+                            </div>
+
+                            <!--Left and right controls-->
+                            <a class="left carousel-control" href="#referentie-carousal" role="button" data-slide="prev">
+                                <i class="iconc-arrow-left-button"><span class="path1"></span><span class="path2"></span></i>
+                            </a>
+                            <a class="right carousel-control" href="#referentie-carousal" role="button" data-slide="next">
+                                <i class="iconc-arrow-right-button"><span class="path1"></span><span class="path2"></span></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="right-part">
+                        <i class="iconc-horn"></i>
+                        <div class="text-part">
+                            <div class="auther">
+                                <span class="naam"></span>
+                                <span class="star"></span>
+                                <!-- <i class="iconc-star"></i>
+                                <i class="iconc-star"></i>
+                                <i class="iconc-star"></i>
+                                <i class="iconc-star"></i>
+                                <i class="iconc-star"></i> -->
+                            </div>
+                            <p class="functie"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% if show_bottom %}
+<div class="referentie-bottomBoxCt text-center">
+    <h2 class="color-pink mb60 mt100">{{reftitle}}</h2>
+    <div class="referentie-bottomBox-btn">
+        <span><a id="referentie_bottom_btn1" href="{{linkfirst}}" class="btn btn-pink mr30">{{textfirst}} <i class="iconc-arrow-button"></i></a></span>
+        <span><a id="referentie_bottom_btn2" href="{{linksecond}}" class="btn btn-pink">{{textsecond}} <i class="iconc-arrow-button"></i></a></span>
+    </div>
+</div>
+{% endif %}

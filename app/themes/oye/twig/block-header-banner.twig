@@ -1,0 +1,28 @@
+<!-- Used on contact, Wij-zijn-de-splinters, Werken-bij Overview, Portfolio Overview -->
+{% if header_image_url != null %}
+	<style type="text/css">
+		.bgimage{
+			background-image: url('{{header_image_url}}') !important;
+		}
+
+		@media screen and (max-width: 767px) {
+			.bgimage{
+				background-image: url('{{header_mobile_image_url}}') !important;
+			}
+		}
+	</style>
+{% endif %}
+
+<section class="section-header-banner {{class}}">
+	<div class="overlay"></div>
+	<div class="pattern-bg"></div>
+	<div class="inner">
+		<div class="bgimage"></div>
+
+		<div class="content-wrapper">
+            <h1 class="font-soho-medium">{{title}}</h1>
+            <p>{{subtitle}}</p>
+            {{button}}
+        </div>
+	</div>
+</section>

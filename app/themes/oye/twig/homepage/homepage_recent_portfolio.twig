@@ -1,0 +1,52 @@
+<section class="wrapper-boxes-and-carousel">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h2 class="pink">{{homepage_recent_projecten_title}}</h2>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper-image-background">
+        <figure>
+            <img  class="pattern" src="{{portfolio.pattern}}">
+        </figure>
+        <div class="container">
+            <div class="row">
+                {% for post in portfolios %}
+                    {%if post.position == 'left'%}
+                        <div class="col-xs-12 col-sm-6 no-padding">
+                            <div class="left-box check-clippath">
+                                <div class="top-content matchHeight">
+                                    <p class="text font-soho">{{post.heading}}</p>
+                                    <p class="small font-calibri">{{post.text_after_title}}</p>
+                                    <figure>
+                                        <img src="{{post.logo}}"/>
+                                    </figure>
+                                    <a href="{{post.link}}?cpage={{currentpage}}" class="btn btn-nobg btn-box">{{post.button}}<i class="iconc-arrow-button"></i></a>
+                                </div>
+                                {# <div class="feature-data" style="background-image: url('{{post.image}}')"></div> #}
+                            </div>
+                        </div>
+                    {%else%}
+                        <div class=" col-xs-12 col-sm-6 no-padding">
+                            <div class="right-box check-clippath">
+                                {# <div class="feature-data" style="background-image: url('{{post.image}}')"></div> #}
+                                <div class="bottom-content matchHeight" style="padding-bottom:30px;">
+                                    <p class="text font-soho">{{post.heading}}</p>
+                                    <p class="small font-calibri">{{post.text_after_title}}</p>
+                                    <figure>
+                                        <img src="{{post.logo}}"/>
+                                    </figure>
+                                    <a href="{{post.link}}?cpage={{currentpage}}" class="btn btn-nobg btn-box">{{post.button}}<i class="iconc-arrow-button"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    {%endif%}
+                {% endfor %}
+            </div>
+        </div>
+        {% filter shortcodes %}
+            [reviewbox_post_block class=""]
+        {% endfilter %}
+    </div>
+</section>

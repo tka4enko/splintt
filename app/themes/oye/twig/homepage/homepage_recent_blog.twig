@@ -1,0 +1,54 @@
+<section class="leuk-leren-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h2 class="pink">{{info.blogposts_title}}</h2>
+            </div>
+        </div>
+    </div>
+    {%if info.background_image is defined%}
+        <div class="image-background" style="background-image:url('{{info.background_image}}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+        {%else%}
+            <div class="image-background">
+            {%endif%}
+            <div class="image-gradient">
+                <div class="container">
+                    <div class="row">
+                        {% for id, post in posts %}
+                            <div class="col-xs-12 col-sm-6 padding-right small-padding">
+                                <div class="{{post.class}} xs-block check-clippath" {#style="background-color:{{post.bg}};"#}>
+                                    <h3>{{post.title}}</h3>
+                                    <span class="font-soho mr15">{{post.date}}</span>
+                                    <span class="font-soho post-leestijd"><i class="iconc-clock mr5"></i> {{leestijd}} {{post.leestijd}}</span>
+                                    <p>{{post.excerpt}}</p>
+                                    <div class="post-author">
+                                        <div class="post-author-inner">
+                                            <div class="author-detail">
+                                                <div class="author-avatar">
+                                                    <img src="{{post.avatarurl}}" />
+                                                </div>
+                                                <span class="author-title">
+                                                    <div>{{door}}</div>
+                                                    <div class="author-name">{{post.author}}</div>
+                                                </span>
+                                            </div>
+                                            <div class="post-link text-right">
+                                                <a class="btn btn-nobg font-soho-medium" href="{{post.link}}">{{lees}} <i class="iconc-arrow-button"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <div class="wie-zijnBtn-div">
+                                <a href="{{info.overviewlink}}" class="btn btn-pink">{{meer_blogs_lezen}}<i class="iconc-arrow-button"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 403.418" enable-background="new 0 0 1920 403.418" xml:space="preserve" preserveAspectRatio="xMaxYMax">
+<g id="Corner-pattern">
+	<polyline fill="#FFFFFF" points="319.968,0.136 0,0.136 159.982,67.344 	"/>
+	<polyline fill="#FFFFFF" points="639.936,0.136 319.968,0.136 479.95,67.344 	"/>
+	<polyline fill="#FFFFFF" points="959.904,0.136 639.936,0.136 799.918,67.344 	"/>
+	<polyline fill="#FFFFFF" points="1279.871,0.136 959.904,0.136 1119.886,67.344 	"/>
+	<polyline fill="#FFFFFF" points="1599.839,0.136 1279.871,0.136 1439.854,67.344 	"/>
+	<polyline fill="#FFFFFF" points="1920,0.136 1600.032,0.136 1760.014,67.344 	"/>
+</g>
+<g id="Color-pattern">
+	<g opacity="0.9">
+		<polygon fill="#D2C3E0" points="959.997,67.213 959.997,134.427 799.999,67.235 959.997,0 		"/>
+		<polygon fill="#AF91C3" points="800.002,134.449 800.002,67.235 960,134.427 800.002,201.662 		"/>
+		<polygon fill="#DDECCB" points="640.003,67.261 640.003,0.047 800.001,67.239 640.003,134.474 		"/>
+		<polygon fill="#C4DE9A" points="800.001,134.453 800.001,201.667 640.003,134.475 800.001,67.24 		"/>
+		<polygon fill="#BDDDC6" points="640,67.26 640,134.473 480.001,67.282 640,0.047 		"/>
+		<polygon fill="#80C096" points="480.004,134.495 480.004,67.282 640.003,134.473 480.004,201.709 		"/>
+		<polygon fill="#B4C9E1" points="319.997,67.304 319.997,134.517 159.999,67.326 319.997,0.09 		"/>
+		<polygon fill="#78A2CD" points="160.002,134.539 160.002,67.326 320,134.517 160.002,201.753 		"/>
+		<polygon fill="#3484BB" points="320,201.732 320,268.945 160.002,201.754 320,134.518 		"/>
+		<polygon fill="#78A2CD" points="160.002,268.966 160.002,201.753 320,268.944 160.002,336.179 		"/>
+		<polygon fill="#B9E5FA" points="320.005,67.303 320.005,0.089 480.003,67.281 320.005,134.516 		"/>
+		<polygon fill="#6FCFF5" points="480.003,134.495 480.003,201.709 320.005,134.517 480.003,67.282 		"/>
+		<polygon fill="#00B6EB" points="320.005,201.729 320.005,134.516 480.003,201.707 320.005,268.943 		"/>
+		<polygon fill="#6FCFF5" points="480.003,268.922 480.003,336.136 320.005,268.944 480.003,201.709 		"/>
+		<polygon fill="#E7C6DE" points="0,336.205 0,268.991 159.998,336.183 0,403.418 		"/>
+		<polygon fill="#E7C6DE" points="0.003,67.351 0.003,0.138 160.001,67.329 0.003,134.565 		"/>
+		<polygon fill="#D592BF" points="160.001,134.544 160.001,201.757 0.003,134.566 160.001,67.33 		"/>
+		<polygon fill="#C761A4" points="0.003,201.778 0.003,134.565 160.001,201.756 0.003,268.991 		"/>
+		<polygon fill="#D592BF" points="160.001,268.971 160.001,336.184 0.003,268.993 160.001,201.757 		"/>
+	</g>
+</g>
+</svg>

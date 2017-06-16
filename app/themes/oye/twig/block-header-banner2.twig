@@ -1,0 +1,57 @@
+<!-- USED ON BLOG SINGLE, Vactures Single. Leerplatform Single, Elearning Single, Portfolio Single -->
+<div class="section-header-banner2-wrapper {{class}}">
+	<section class="section-header-banner2">
+		<div class="overlay"></div>
+		<div class="pattern-bg"></div>
+		<div class="inner">
+			<div class="bgimage" style="background-image: url({{background}})!important;"></div>
+			<div class="content-wrapper">
+				<div class="column column1">
+					{% if title %}
+			            <h1>{{title}}</h1>
+		            {% endif %}
+		            {% if subtitle %}
+		            	<p>{{subtitle}}</p>
+		            {% endif %}
+		            {% if logo_url %}
+			            <p><img src="{{logo_url}}" /></p>
+		            {% endif %}
+	            </div>
+
+	            <div class="column column2 text-center">
+	            	<div class="block-author top">
+		            	{% if author_title %}
+		            		<h3>{{author_title}}</h3>
+		            	{% endif %}
+		            	{% if author_url %}
+			            	<div class="avatar">
+			            		<img src="{{author_url}}" />
+			            	</div>
+			            {% endif %}
+		            	{% if author_description %}
+							<p>{{author_description}}</p>
+						{% endif %}
+	            	</div>
+	            </div>
+	        </div>
+		</div>
+	</section>
+
+	<div class="block-author bottom">
+		<div class="column-author">
+			{% if author_title %}
+				<h3>{{author_title}}</h3>
+			{% endif %}
+		</div>
+		{% if author_url %}
+		<div class="column-author">
+			<div class="avatar">
+				<img src="{{author_url}}" />
+			</div>
+			{% if author_description %}
+				<p>{{author_description}}</p>
+			{% endif %}
+		</div>
+		{% endif %}
+	</div>
+</div>

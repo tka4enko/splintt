@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1200 315.174" enable-background="new 0 0 1200 315.174" xml:space="preserve" preserveAspectRatio="xMaxYMin">
+<g id="Corner-pattern">
+	<g>
+		<polygon fill="#FFFFFF" points="149.999,63.142 300,0.128 0,0.128 		"/>
+		<polygon fill="#FFFFFF" points="600,0.128 300,0.128 449.999,63.142 		"/>
+		<polygon fill="#FFFFFF" points="900,0.128 600,0.128 749.999,63.142 		"/>
+		<polygon fill="#FFFFFF" points="1200,0.128 900,0.128 1049.999,63.142 		"/>
+	</g>
+</g>
+<g id="Color-pattern" opacity="0.9">
+	<g opacity="0.9">
+		<polygon fill="#D2C3E0" points="900,63.013 900,126.026 750.001,63.034 900,0 		"/>
+		<polygon fill="#DDECCB" points="600.004,63.057 600.004,0.044 750.003,63.037 600.004,126.07 		"/>
+		<polygon fill="#BDDDC6" points="600,63.057 600,126.07 450.001,63.077 600,0.044 		"/>
+		<polygon fill="#80C096" points="450.004,126.09 450.004,63.077 600.003,126.069 450.004,189.103 		"/>
+		<polygon fill="#B4C9E1" points="299.996,63.098 299.996,126.111 149.997,63.118 299.996,0.085 		"/>
+		<polygon fill="#3484BB" points="299.999,189.125 299.999,252.138 150,189.145 299.999,126.112 		"/>
+		<polygon fill="#006BA9" points="150,252.157 150,189.144 299.999,252.137 150,315.17 		"/>
+		<polygon fill="#B9E5FA" points="300.004,63.097 300.004,0.084 450.003,63.076 300.004,126.11 		"/>
+		<polygon fill="#6FCFF5" points="450.003,126.09 450.003,189.103 300.004,126.111 450.003,63.077 		"/>
+		<polygon fill="#2BAA6D" points="600,189.083 600,252.096 450.001,189.104 600,126.07 		"/>
+		<polygon fill="#E7C6DE" points="0,63.142 0,0.129 149.999,63.121 0,126.155 		"/>
+		<polygon fill="#D592BF" points="149.999,126.136 149.999,189.149 0,126.156 149.999,63.123 		"/>
+		<polygon fill="#C761A4" points="0,189.168 0,126.155 149.999,189.147 0,252.181 		"/>
+		<polygon fill="#BB1F8A" points="149.999,252.162 149.999,315.174 0,252.182 149.999,189.149 		"/>
+	</g>
+</g>
+</svg>

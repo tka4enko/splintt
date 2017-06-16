@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1200 848.056" enable-background="new 0 0 1200 848.056" xml:space="preserve" preserveAspectRatio="none">
+<g id="Corner-pattern">
+	<g>
+		<polygon fill="#FFFFFF" points="1050.001,785.042 900,848.056 1200,848.056 		"/>
+		<polygon fill="#FFFFFF" points="600,848.056 900,848.056 750.001,785.042 		"/>
+		<polygon fill="#FFFFFF" points="300,848.056 600,848.056 450.001,785.042 		"/>
+		<polygon fill="#FFFFFF" points="0,848.056 300,848.056 150.001,785.042 		"/>
+	</g>
+</g>
+<g id="Color-pattern" opacity="0.9">
+	<g opacity="0.9">
+		<polygon fill="#DDECCB" points="1050,252.033 1050,189.019 1200,252.012 1050,315.046 		"/>
+		<polygon fill="#BDDDC6" points="1050,252.033 1050,315.046 900,252.053 1050,189.019 		"/>
+		<polygon fill="#2BAA6D" points="1050,126.01 1050,189.023 900,126.031 1050,62.997 		"/>
+		<polygon fill="#6FCFF5" points="900,189.04 900,252.054 750,189.061 900,126.027 		"/>
+		<polygon fill="#069DD8" points="900,63.013 900,126.027 750,63.034 900,0 		"/>
+		<polygon fill="#80C096" points="900,189.04 900,126.027 1050,189.02 900,252.054 		"/>
+		<polygon fill="#B9E5FA" points="750,252.078 750,189.065 900,252.058 750,315.092 		"/>
+		<polygon fill="#C4DE9A" points="1200,315.027 1200,378.04 1050,315.047 1200,252.013 		"/>
+		<polygon fill="#C4DE9A" points="1200,189 1200,252.013 1050,189.021 1200,125.987 		"/>
+	</g>
+</g>
+</svg>

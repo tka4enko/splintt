@@ -1,0 +1,10 @@
+<wpml-config>
+	<admin-texts>
+    	<key name="theme_opt">
+	        <key name="footer_address" />
+	        <key name="referentie_title" />
+	        <key name="referentie_btn1" />
+	        <key name="referentie_btn2" />
+    	</key> 
+	</admin-texts>
+</wpml-config>

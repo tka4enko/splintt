@@ -1,0 +1,205 @@
+.singleblogCt{
+    .container-fluid{
+        max-width: 1590px;
+    }
+    .wrapper-image-background{
+        background-image: url('../images/icons/background-pattern.svg');
+        background-position: center;
+    }
+    .service-engineer{
+        max-width: 1200px;
+        margin: 70px auto 0;
+        font-size: 18px;
+
+        h1,h2,h3,h4,h5,h6 {
+            margin: 20px 0;
+            color: #c0087f;
+        }
+
+        p {
+            display: block;
+        }
+    }
+    .vacature{
+
+        .pink{
+            margin: 100px 0 80px 0;
+        }
+
+        .boxinfo{
+
+            >.inner{
+                min-height: 507px;
+
+                h3{
+                    height: 60px;
+                }
+
+                .media-body{
+                    padding-bottom: 25px;
+                    font-size: 22px;
+                }
+            }
+            span{
+                display: block;
+                float: left;
+                line-height: 28px;
+                font-size: 10px;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .vacature-functie {
+        position: relative;
+        z-index: 99;
+        margin-top: 175px;
+    }
+
+    .vacature-footer-wrapper{
+
+        .no-padding-right{
+            padding-right: 0;
+        }
+
+        .no-padding-left{
+            padding-left: 0
+        }
+
+        .boxinfo{
+            .inner{
+                min-height: 450px;
+                 padding: 117px 80px;
+                p{
+                    margin-top: 40px;
+                    font-size: 18px;
+                }
+                h3{
+                    margin: 0;
+                    font-size: 28px;
+                }
+                span{
+                    font-size: 25px;
+                    margin-top: 40px;
+                }
+            }
+        }
+/*        .cut-left-top-sky-blue{
+           .inner{
+                padding: 117px 80px;
+                p{
+                    margin-top: 40px;
+                    font-size: 18px;
+                }
+           }
+        }*/
+    }
+    @media screen and (min-width: 1200px) and (max-width:1400px){
+        .vacature{
+            .boxinfo{
+                >.inner{
+                    .media-body{
+                        padding-bottom: 25px;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 1199px){
+        .vacature,.service-engineer{
+            h2{
+                font-size: 30px;
+            }
+        }
+
+        .boxinfo{
+            .control-float{
+                float: right;
+            }
+            .control-block{
+                display: block;
+                margin:30px auto;
+            }
+            >.inner{
+                min-height: 507px;
+                max-width:426px;
+                padding:80px 20px;
+            }
+        }
+    }
+    @media screen and (max-width: 991px){
+        .padding-right{
+            padding-right: 10px;
+        }
+        .padding-left{
+            padding-left: 10px;
+        }
+        .vacature{
+            .boxinfo{
+                .control-float{
+                    float: right;
+                }
+                >.inner{
+                    min-height: 507px;
+                    max-width:350px;
+                    padding:80px 15px;
+                    h3{
+                        font-size: 25px;
+                    }
+                    .media-body{
+                        padding-bottom: 15px;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 767px){
+        .vacature,.service-engineer{
+            h2{
+                font-size: 25px;
+            }
+        }
+        .vacature-functie {
+            margin-top: 50px;
+        }
+        .vacature{
+            .padding-right{
+                padding-right: 10px;
+                padding-left: 10px;
+            }
+            .padding-left{
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            .padding10{
+                padding: 0 10px;
+            }
+            .boxinfo{
+                .control-float{
+                    float: none;
+                }
+                .control-block{
+                    display: block;
+                    margin:5px auto;
+                }
+                >.inner{
+                    display:block;
+                    margin:5px auto;
+                    min-height: 0;
+                    max-width: 100%;
+                    height: auto !Important;
+                    padding: 50px 15px;
+                    h3{
+                        font-size: 20px;
+                    }
+                    .media-body{
+                        padding-bottom: 0px;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

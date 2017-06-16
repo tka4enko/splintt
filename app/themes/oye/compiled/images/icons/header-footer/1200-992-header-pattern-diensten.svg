@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1200 441.16" enable-background="new 0 0 1200 441.16" xml:space="preserve">
+<g id="Corner-pattern">
+	<g>
+		<polygon fill="#FFFFFF" points="1050.002,378.146 900,441.16 1200,441.16 		"/>
+		<polygon fill="#FFFFFF" points="600,441.16 900,441.16 750.002,378.146 		"/>
+		<polygon fill="#FFFFFF" points="300,441.16 600,441.16 450.002,378.146 		"/>
+		<polygon fill="#FFFFFF" points="0,441.16 300,441.16 150.002,378.146 		"/>
+	</g>
+</g>
+<g id="Color-pattern" opacity="0.9">
+	<g opacity="0.9">
+		<polygon fill="#89C193" points="1050,315.067 1050,252.054 1200,315.046 1050,378.08 		"/>
+		<polygon fill="#84CFF4" points="1050,315.067 1050,378.08 900,315.088 1050,252.054 		"/>
+		<polygon fill="#C8E8FA" points="900,378.104 900,315.091 1050,378.083 900,441.117 		"/>
+		<polygon fill="#ECCFE4" points="600,378.147 600,315.133 750,378.126 600,441.16 		"/>
+		<polygon fill="#C2D1E8" points="900,378.104 900,441.117 750,378.125 900,315.091 		"/>
+		<polygon fill="#10B4E9" points="900,252.074 900,189.061 1050,252.054 900,315.088 		"/>
+		<polygon fill="#10B4E9" points="900,126.051 900,63.037 1050,126.03 900,189.064 		"/>
+		<polygon fill="#82A7D2" points="750,315.112 750,252.099 900,315.092 750,378.126 		"/>
+		<polygon fill="#DB98C2" points="750,315.112 750,378.126 600,315.133 750,252.099 		"/>
+		<polygon fill="#DCCDE6" points="600,378.147 600,441.16 450,378.167 600,315.133 		"/>
+		<polygon fill="#C9E1CB" points="1200,378.061 1200,441.074 1050,378.081 1200,315.047 		"/>
+		<polygon fill="#2AA261" points="1200,252.034 1200,315.047 1050,252.055 1200,189.021 		"/>
+		<polygon fill="#2AA261" points="1200,126.008 1200,189.021 1050,126.028 1200,62.994 		"/>
+		<polygon fill="#89C193" points="1050,63.013 1050,0 1200,62.993 1050,126.027 		"/>
+		<polygon fill="#008D3C" points="1050,189.04 1050,126.027 1200,189.02 1050,252.054 		"/>
+	</g>
+</g>
+</svg>

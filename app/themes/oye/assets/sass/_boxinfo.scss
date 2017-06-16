@@ -1,0 +1,864 @@
+@mixin gradient($value1, $value2, $value3) {
+    background: linear-gradient($value1, $value2, $value3);
+    background: -webkit-linear-gradient($value1, $value2, $value3);
+    background: -o-linear-gradient($value1, $value2, $value3);
+    background: -moz-linear-gradient($value1, $value2, $value3);
+    background: -ms-linear-gradient($value1, $value2, $value3);
+}
+
+.boxinfo {
+    color: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #fff;
+        margin: 25px 0 35px 0;
+    }
+
+    a {
+        color: #fff;
+    }
+
+    >.inner {
+        position: relative;
+        overflow: hidden;
+		padding: 50px 35px;
+
+		
+	}
+
+
+	// &.cut-left-top {
+	// 	>.inner {
+	// 		background: linear-gradient(145deg, transparent 30px, #0063a5 0);
+
+	// 		// &:after {
+	// 	 //        content: '';
+	// 		//     position: absolute;
+	// 		//     width: 1100%;
+	// 		//     height: 1100%;
+	// 		//     top: 0;
+	// 		//     background: #0063a5;
+	// 		//     right: -435%;
+	// 		//     transform-origin: 54% 0;
+	// 		//     transform: rotate(-23deg);
+	// 		//     z-index: -1;
+	// 	 //    }
+	// 	}
+	// }
+
+	// &.cut-left-top-sky-blue {
+	// 	>.inner {
+	// 		background: linear-gradient(154deg, transparent 58px, #009fe3 0);
+	// 	}
+	// }
+
+	// &.cut-left-top-green {
+	// 	>.inner {
+	// 		background: linear-gradient(154deg, transparent 58px, #008e3c 0);
+	// 	}
+	// }
+
+	// &.cut-left-top-light-green {
+	// 	>.inner {
+	// 		background: linear-gradient(154deg, transparent 58px, #94c11e 0);
+	// 	}
+	// }
+
+	// &.cut-left-bottom {
+	// 	>.inner {
+	// 		background: linear-gradient(-332deg, transparent 58px, #0063a5 0);
+	// 		// &:after {
+	// 	 //        content: '';
+	// 		//     position: absolute;
+	// 		//     width: 1100%;
+	// 		//     height: 1100%;
+	// 		//     top: 0;
+	// 		//     background: #0063a5;
+	// 		//     z-index: -1;
+	// 		//     right: -430%;
+	// 		//     transform-origin: 43% 0;
+	// 		//     transform: rotate(-145deg);
+	// 	 //    }
+	// 	}
+	// }
+	
+	// &.cut-left-bottom-sky-blue {
+	// 	>.inner {
+	// 		background: linear-gradient(-332deg, transparent 58px, #009fe3 0);
+	// 	}
+	// }
+
+	// &.cut-left-bottom-green {
+	// 	>.inner {
+	// 		background: linear-gradient(-332deg, transparent 58px, #008e3c 0);
+	// 	}
+	// }
+
+	// &.cut-left-bottom-light-green {
+	// 	>.inner {
+	// 		background: linear-gradient(-332deg, transparent 58px, #94c11e 0);
+	// 	}
+	// }
+
+	// &.cut-right-top {
+	// 	>.inner {
+	// 		background: linear-gradient(-154deg, transparent 58px, #0063a5 0);
+
+	// 		// &:after {
+	// 	 //        content: '';
+	// 		//     position: absolute;
+	// 		//     width: 1100%;
+	// 		//     height: 1100%;
+	// 		//     top: 0;
+	// 		//     background: #0063a5;
+	// 		//     z-index: -1;
+	// 		//     right: -455%;
+	// 		//     transform-origin: 57% 0;
+ //   //  			transform: rotate(-312deg);
+	// 	 //    }
+	// 	}
+	// }
+
+	// &.cut-right-top-sky-blue {
+	// 	>.inner {
+	// 		background: linear-gradient(-154deg, transparent 58px, #009fe3 0);
+	// 	}
+	// }
+
+	// &.cut-right-top-green {
+	// 	>.inner {
+	// 		background: linear-gradient(-154deg, transparent 58px, #008e3c 0);
+	// 	}
+	// }
+
+	// &.cut-right-top-light-green {
+	// 	>.inner {
+	// 		background: linear-gradient(-154deg, transparent 58px, #94c11e 0);
+	// 	}
+	// }
+
+
+	// &.cut-right-bottom {
+	// 	>.inner {
+	// 		// &:after {
+	// 		background: linear-gradient(332deg, transparent 58px, #0063a5 0);
+	// 	 //        content: '';
+	// 		//     position: absolute;
+	// 		//     width: 1100%;
+	// 		//     height: 1100%;
+	// 		//     top: 0;
+	// 		//     background: #0063a5;
+	// 		//     z-index: -1;
+	// 		//     right: -455%;
+	// 		//     transform-origin: 74% 0;
+	// 		//     transform: rotate(-202deg);
+	// 	 //    }
+	// 	}
+	// }
+
+	// &.cut-right-bottom-sky-blue {
+	// 	>.inner {
+	// 		background: linear-gradient(332deg, transparent 58px, #009fe3 0);
+	// 	}
+	// }
+
+	// &.cut-right-bottom-green {
+	// 	>.inner {
+	// 		background: linear-gradient(332deg, transparent 58px, #008e3c 0);
+	// 	}
+	// }
+
+	// &.cut-right-bottom-light-green {
+	// 	>.inner {
+	// 		background: linear-gradient(332deg, transparent 58px, #94c11e 0);
+	// 	}
+	// }
+
+
+    &.cut-left-top {
+        >.inner {
+            background: linear-gradient(296deg, transparent 50px, #0063a5 0);
+            background:-webkit-linear-gradient(296deg, transparent 50px, #0063a5 0);
+            background: -o-linear-gradient(296deg, transparent 50px, #0063a5 0);
+            background: -moz-linear-gradient(296deg, transparent 50px, #0063a5 0);
+            background: -ms-linear-gradient(296deg, transparent 50px, #0063a5 0);
+
+            /*			 &:after {
+                                     content: '';
+                                         position: absolute;
+                                         width: 1100%;
+                                         height: 1100%;
+                                         top: 0;
+                                         background: #0063a5;
+                                         right: -435%;
+                                        transform-origin: 54% 0;
+                                        transform: rotate(-23deg);
+                                         z-index: -1;
+                                 }*/
+        }
+        // img{
+        //     position: relative;
+        //     &:after {
+        //         content: '';
+        //         position: absolute;
+        //         width: 1100%;
+        //         height: 1100%;
+        //         top: 0;
+        //         background: #0063a5;
+        //         right: -435%;
+        //         transform-origin: 54% 0;
+        //         transform: rotate(-23deg);
+        //         z-index: -1;
+        //     }
+        // }
+    }
+
+    &.cut-left-top-sky-blue {
+        >.inner {
+            background: linear-gradient(296deg, transparent 50px, #009fe3 0);
+            background: -webkit-linear-gradient(296deg, transparent 50px, #009fe3 0);
+            background: -o-linear-gradient(296deg, transparent 50px, #009fe3 0);
+            background: -moz-linear-gradient(296deg, transparent 50px, #009fe3 0);
+            background: -ms-linear-gradient(296deg, transparent 50px, #009fe3 0);
+        }
+    }
+
+    &.cut-left-top-green {
+        >.inner {
+            background: linear-gradient(296deg, transparent 50px, #008e3c 0);
+            background: -webkit-linear-gradient(296deg, transparent 50px, #008e3c 0);
+            background: -o-linear-gradient(296deg, transparent 50px, #008e3c 0);
+            background: -moz-linear-gradient(296deg, transparent 50px, #008e3c 0);
+            background: -ms-linear-gradient(296deg, transparent 50px, #008e3c 0);
+
+        }
+    }
+
+    &.cut-left-top-light-green {
+        >.inner {
+            background: linear-gradient(296deg, transparent 50px, #94c11e 0);
+            background: -webkit-linear-gradient(296deg, transparent 50px, #94c11e 0);
+            background: -o-linear-gradient(296deg, transparent 50px, #94c11e 0);
+            background: -moz-linear-gradient(296deg, transparent 50px, #94c11e 0);
+            background: -ms-linear-gradient(296deg, transparent 50px, #94c11e 0);
+        }
+    }
+
+    &.cut-left-bottom {
+        >.inner {
+            background: linear-gradient(62deg, transparent 50px, #0063a5 0);
+            background: -webkit-linear-gradient(62deg, transparent 50px, #0063a5 0); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(62deg, transparent 50px, #0063a5 0); /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(62deg, transparent 50px, #0063a5 0);
+            // &:after {
+            //        content: '';
+            //     position: absolute;
+            //     width: 1100%;
+            //     height: 1100%;
+            //     top: 0;
+            //     background: #0063a5;
+            //     z-index: -1;
+            //     right: -430%;
+            //     transform-origin: 43% 0;
+            //     transform: rotate(-145deg);
+            //    }
+        }
+    }
+
+    &.cut-left-bottom-sky-blue {
+        >.inner {
+            background: linear-gradient(62deg, transparent 50px, #009fe3 0);
+            background: -webkit-linear-gradient(62deg, transparent 50px, #009fe3 0);
+            background:-o-linear-gradient(62deg, transparent 50px, #009fe3 0);
+            background: -moz-linear-gradient(62deg, transparent 50px, #009fe3 0);
+            background: -ms-linear-gradient(62deg, transparent 50px, #009fe3 0);
+        }
+    }
+
+    &.cut-left-bottom-green {
+        >.inner {
+            background: linear-gradient(62deg, transparent 50px, #008e3c 0);
+            background: -webkit-linear-gradient(62deg, transparent 50px, #008e3c 0);
+            background: -o-linear-gradient(62deg, transparent 50px, #008e3c 0);
+            background: -moz-linear-gradient(62deg, transparent 50px, #008e3c 0);
+            background: -ms-linear-gradient(62deg, transparent 50px, #008e3c 0);
+        }
+    }
+
+    &.cut-left-bottom-light-green {
+        >.inner {
+            background: linear-gradient(62deg, transparent 50px, #94c11e 0);
+            background: -webkit-linear-gradient(62deg, transparent 50px, #94c11e 0);
+            background: -o-linear-linear-gradient(62deg, transparent 50px, #94c11e 0);
+            background: -moz-linear-gradient(62deg, transparent 50px, #94c11e 0);
+            background: -ms-linear-gradient(62deg, transparent 50px, #94c11e 0);
+        }
+    }
+
+    &.cut-right-top {
+        >.inner {
+            background: linear-gradient(244deg, transparent 50px, #0063a5 0);
+            background: -webkit-linear-gradient(244deg, transparent 50px, #0063a5 0);
+            background: -o-linear-gradient(244deg, transparent 50px, #0063a5 0);
+            background: -moz-linear-gradient(244deg, transparent 50px, #0063a5 0);
+            background: -ms-linear-gradient(244deg, transparent 50px, #0063a5 0);
+
+
+            // &:after {
+            //        content: '';
+            //     position: absolute;
+            //     width: 1100%;
+            //     height: 1100%;
+            //     top: 0;
+            //     background: #0063a5;
+            //     z-index: -1;
+            //     right: -455%;
+            //     transform-origin: 57% 0;
+            //  			transform: rotate(-312deg);
+            //    }
+        }
+    }
+
+    &.cut-right-top-sky-blue {
+        >.inner {
+            background: linear-gradient(244deg, transparent 50px, #009fe3 0);
+            background: -webkit-linear-gradient(244deg, transparent 50px, #009fe3 0);
+            background: -o-linear-gradient(244deg, transparent 50px, #009fe3 0);
+            background: -moz-linear-gradient(244deg, transparent 50px, #009fe3 0);
+            background: -ms-linear-gradient(244deg, transparent 50px, #009fe3 0);
+
+        }
+    }
+
+    &.cut-right-top-green {
+        >.inner {
+            background: linear-gradient(244deg, transparent 50px, #008e3c 0);
+            background: -webkit-linear-gradient(244deg, transparent 50px, #008e3c 0);
+            background: -o-linear-gradient(244deg, transparent 50px, #008e3c 0);
+            background: -moz-linear-gradient(244deg, transparent 50px, #008e3c 0);
+            background: -ms-linear-gradient(244deg, transparent 50px, #008e3c 0);
+
+        }
+    }
+
+    &.cut-right-top-light-green {
+        >.inner {
+            background: linear-gradient(244deg, transparent 50px, #94c11e 0);
+            background: -webkit-linear-gradient(244deg, transparent 50px, #94c11e 0);
+            background: -o-linear-gradient(244deg, transparent 50px, #94c11e 0);
+            background: -moz-linear-gradient(244deg, transparent 50px, #94c11e 0);
+            background: -ms-linear-gradient(244deg, transparent 50px, #94c11e 0);
+
+        }
+    }
+
+
+    &.cut-right-bottom {
+        >.inner {
+            // &:after {
+            background: linear-gradient(118deg, transparent 50px, #0063a5 0);
+            background:  -webkit-linear-gradient(118deg, transparent 50px, #0063a5 0);
+            background:  -o-linear-gradient(118deg, transparent 50px, #0063a5 0);
+            background: -moz-linear-gradient(118deg, transparent 50px, #0063a5 0);
+            background: -ms-linear-gradient(118deg, transparent 50px, #0063a5 0);
+
+            //        content: '';
+            //     position: absolute;
+            //     width: 1100%;
+            //     height: 1100%;
+            //     top: 0;
+            //     background: #0063a5;
+            //     z-index: -1;
+            //     right: -455%;
+            //     transform-origin: 74% 0;
+            //     transform: rotate(-202deg);
+            //    }
+        }
+    }
+
+    &.cut-right-bottom-sky-blue {
+        >.inner {
+            background: linear-gradient(118deg, transparent 50px, #009fe3 0);
+            background: -webkit-linear-gradient(118deg, transparent 50px, #009fe3 0);
+            background: -o-linear-gradient(118deg, transparent 50px, #009fe3 0);
+            background: -moz-linear-gradient(118deg, transparent 50px, #009fe3 0);
+            background: -ms-linear-gradient(118deg, transparent 50px, #009fe3 0);
+
+        }
+    }
+
+    &.cut-right-bottom-green {
+        >.inner {
+            background: linear-gradient(118deg, transparent 50px, #008e3c 0);
+            background: -webkit-linear-gradient(118deg, transparent 50px, #008e3c 0);
+            background: -o-linear-gradient(118deg, transparent 50px, #008e3c 0);
+            background: -moz-linear-gradient(118deg, transparent 50px, #008e3c 0);
+            background: -ms-linear-gradient(118deg, transparent 50px, #008e3c 0);
+
+        }
+    }
+
+    &.cut-right-bottom-light-green {
+        >.inner {
+            background: linear-gradient(118deg, transparent 50px, #94c11e 0);
+            background: -webkit-linear-gradient(118deg, transparent 50px, #94c11e 0);
+            background: -o-linear-gradient(118deg, transparent 50px, #94c11e 0);
+            background: -moz-linear-gradient(118deg, transparent 50px, #94c11e 0);
+            background: -ms-linear-gradient(118deg, transparent 50px, #94c11e 0);
+
+        }
+    }
+
+
+
+    // &.cut-both {
+    // 	>.inner {
+    // 		&:after {
+    // 	        content: '';
+    // 		    position: absolute;
+    // 		    width: 146%;
+    // 		    height: 129%;
+    // 		    top: 55px;
+    // 		    background: #0063a5;
+    // 		    z-index: -1;
+    // 		    right: -230px;
+    // 		    transform-origin: 57% 0;
+    // 		    transform: rotate(-312deg);
+    // 	    }
+    // 	}
+    // }
+
+
+
+	// &.sky-blue-after {
+	// 	>.inner {
+	// 		&:after {
+	// 			background: #009fe3;
+	// 		}
+			
+	// 	}
+	// }
+
+	// &.green-light-after {
+	// 	>.inner {
+	// 		&:after {
+	// 			background: #94c11e;
+	// 		}
+			
+	// 	}
+	// }
+
+	// &.green-after {
+	// 	>.inner {
+	// 		&:after {
+	// 			background: #008e3c;
+	// 		}
+	// 	}
+	// }
+	
+	
+	// &.blue {
+	// 	>.inner {
+	// 		background: #0063a5;
+	// 	}
+	// }
+
+    // 	}
+    // }
+
+    // &.green-after {
+    // 	>.inner {
+    // 		&:after {
+    // 			background: #008e3c;
+    // 		}
+    // 	}
+    // }
+
+
+    // &.blue {
+    // 	>.inner {
+    // 		background: #0063a5;
+    // 	}
+    // }
+
+    // &.sky-blue {
+    // 	>.inner {
+    // 		background: #009fe3;
+    // 	}
+    // }
+
+    @media screen and (max-width: 767px) {
+        >.inner {
+            // padding: 20px;
+        }
+
+        &.no-cut-sky-blue {
+            >.inner {
+                background: #009fe3;
+            }
+        }
+        &.xs-cut-left-bottom {
+            >.inner {
+                background: linear-gradient(62deg, transparent 50px, #0063a5 0);
+                background: -webkit-linear-gradient(62deg, transparent 50px, #0063a5 0); /* For Safari 5.1 to 6.0 */
+                background: -o-linear-gradient(62deg, transparent 50px, #0063a5 0); /* For Opera 11.1 to 12.0 */
+                background: -moz-linear-gradient(62deg, transparent 50px, #0063a5 0);
+            }
+        }
+
+    }
+
+}
+
+.werken-box {
+
+    &:nth-of-type(odd) {
+
+        .werken-post-inner {
+            background: #0063a5;
+            background: linear-gradient(296deg, transparent 47px, #0063a5 0) top 3px left, linear-gradient(120deg, transparent 50px, #0063a5 0) bottom right;
+            background: -webkit-linear-gradient(296deg, transparent 47px, #0063a5 0) top 3px left, -webkit-linear-gradient(120deg, transparent 50px, #0063a5 0) bottom right;
+            background: -o-linear-gradient(296deg, transparent 47px, #0063a5 0) top 3px left, -o-linear-gradient(120deg, transparent 50px, #0063a5 0) bottom right;
+            background: -moz-linear-gradient(296deg, transparent 47px, #0063a5 0) top 3px left, -moz-linear-gradient(120deg, transparent 50px, #0063a5 0) bottom right;
+            background: -ms-linear-gradient(296deg, transparent 47px, #0063a5 0) top 3px left, -ms-linear-gradient(120deg, transparent 50px, #0063a5 0) bottom right;
+            background-repeat: no-repeat;
+            background-size: 100% 55%;
+
+            .btn {
+                color: #fff;
+                border: 2px solid #fff;
+
+                &:hover {
+                    color: #0063a5;
+                    background: #fff;
+                }
+            }
+        }
+    }
+
+    &:nth-of-type(even) {
+
+        .werken-post-inner {
+            background: #009fe3;
+            background: linear-gradient(240deg, transparent 47px, #009fe3 0) top 3px right, linear-gradient(64deg, transparent 50px, #009fe3 0) bottom left;
+            background: -webkit-linear-gradient(240deg, transparent 47px, #009fe3 0) top 3px right, -webkit-linear-gradient(64deg, transparent 50px, #009fe3 0) bottom left;
+            background: -o-linear-gradient(240deg, transparent 47px, #009fe3 0) top 3px right, -o-linear-gradient(64deg, transparent 50px, #009fe3 0) bottom left;
+            background: -moz-linear-gradient(240deg, transparent 47px, #009fe3 0) top 3px right, -moz-linear-gradient(64deg, transparent 50px, #009fe3 0) bottom left;
+            background: -ms-linear-gradient(240deg, transparent 47px, #009fe3 0) top 3px right, -ms-linear-gradient(64deg, transparent 50px, #009fe3 0) bottom left;
+            background-repeat: no-repeat;
+            background-size: 100% 55%;
+
+            .btn {
+                color: #fff;
+                border: 2px solid #fff;
+
+                &:hover {
+                    color: #009fe3;
+                    background: #fff;
+                }
+            }
+        }
+    }
+}
+
+.single-collega {
+
+    .werken-post-inner {
+        background: #009fe3;
+        background: linear-gradient(296deg, transparent 50px, #009fe3 0) top left, linear-gradient(120deg, transparent 50px, #009fe3 0) bottom right;
+        background: -webkit-linear-gradient(296deg, transparent 50px, #009fe3 0) top left, -webkit-linear-gradient(120deg, transparent 50px, #009fe3 0) bottom right;
+        background: -o-linear-gradient(296deg, transparent 50px, #009fe3 0) top left, -o-linear-gradient(120deg, transparent 50px, #009fe3 0) bottom right;
+        background: -moz-linear-gradient(296deg, transparent 50px, #009fe3 0) top left, -moz-linear-gradient(120deg, transparent 50px, #009fe3 0) bottom right;
+        background: -ms-linear-gradient(296deg, transparent 50px, #009fe3 0) top left, -ms-linear-gradient(120deg, transparent 50px, #009fe3 0) bottom right;
+        background-repeat: no-repeat;
+        background-size: 100% 55%;
+    }
+}
+
+.wrapper-box {
+
+    &:nth-of-type(4n+1) {
+
+        .left-side {
+            @include gradient(296deg, transparent 50px, #0063a5 0);
+
+            .btn {
+                color: #fff;
+                border: 2px solid #fff;
+
+                &:hover {
+                    color: #0063a5;
+                    background: #fff;
+                }
+            }
+        }
+    }
+
+    &:nth-of-type(4n+2) {
+
+        .left-side {
+            @include gradient(296deg, transparent 50px, #009fe3 0);
+
+            .btn {
+                color: #fff;
+                border: 2px solid #fff;
+
+                &:hover {
+                    color: #009fe3;
+                    background: #fff;
+                }
+            }
+        }
+    }
+
+    &:nth-of-type(4n+3) {
+
+        .left-side {
+            @include gradient(296deg, transparent 50px, #95c11f 0);
+
+            .btn {
+                color: #fff;
+                border: 2px solid #fff;
+
+                &:hover {
+                    color: #95c11f;
+                    background: #fff;
+                }
+            }
+        }
+    }
+
+    &:nth-of-type(4n+4) {
+
+        .left-side {
+            @include gradient(296deg, transparent 50px, #008d3c 0);
+
+            .btn {
+                color: #fff;
+                border: 2px solid #fff;
+
+                &:hover {
+                    color: #008d3c;
+                    background: #fff;
+                }
+            }
+        }
+    }
+}
+
+.collega-box {
+
+    &:nth-of-type(odd) {
+
+        .werken-post-inner {
+            background: #008d3c;
+            background: linear-gradient(296deg, transparent 47px, #008d3c 0) top 3px left, linear-gradient(120deg, transparent 50px, #008d3c 0) bottom right;
+            background: -webkit-linear-gradient(296deg, transparent 47px, #008d3c 0) top 3px left, -webkit-linear-gradient(120deg, transparent 50px, #008d3c 0) bottom right;
+            background: -o-linear-gradient(296deg, transparent 47px, #008d3c 0) top 3px left, -o-linear-gradient(120deg, transparent 50px, #008d3c 0) bottom right;
+            background: -moz-linear-gradient(296deg, transparent 47px, #008d3c 0) top 3px left, -moz-linear-gradient(120deg, transparent 50px, #008d3c 0) bottom right;
+            background: -ms-linear-gradient(296deg, transparent 47px, #008d3c 0) top 3px left, -ms-linear-gradient(120deg, transparent 50px, #008d3c 0) bottom right;
+            background-repeat: no-repeat;
+            background-size: 100% 55%;
+
+            .btn {
+                color: #fff;
+                border: 2px solid #fff;
+
+                &:hover {
+                    color: #008d3c;
+                    background: #fff;
+                }
+            }
+        }
+    }
+
+    &:nth-of-type(even) {
+
+        .werken-post-inner {
+            background: #95c11f;
+            background: linear-gradient(240deg, transparent 47px, #95c11f 0) top 3px right, linear-gradient(64deg, transparent 50px, #95c11f 0) bottom left;
+            background: -webkit-linear-gradient(240deg, transparent 47px, #95c11f 0) top 3px right, -webkit-linear-gradient(64deg, transparent 50px, #95c11f 0) bottom left;
+            background: -o-linear-gradient(240deg, transparent 47px, #95c11f 0) top 3px right, -o-linear-gradient(64deg, transparent 50px, #95c11f 0) bottom left;
+            background: -moz-linear-gradient(240deg, transparent 47px, #95c11f 0) top 3px right, -moz-linear-gradient(64deg, transparent 50px, #95c11f 0) bottom left;
+            background: -ms-linear-gradient(240deg, transparent 47px, #95c11f 0) top 3px right, -ms-linear-gradient(64deg, transparent 50px, #95c11f 0) bottom left;
+            background-repeat: no-repeat;
+            background-size: 100% 55%;
+
+            .btn {
+                color: #fff;
+                border: 2px solid #fff;
+
+                &:hover {
+                    color: #95c11f;
+                    background: #fff;
+                }
+            }
+        }
+    }
+}
+
+
+.blog-box {
+
+    .inner {
+        position: relative;
+    }
+
+    &:nth-of-type(4n+1) {
+
+        .inner {
+            @include gradient(296deg, transparent 50px, #009fe3 0);
+
+            .btn {
+                color: #fff;
+                border: 2px solid #fff;
+
+                &:hover {
+                    color: #009fe3;
+                    background: #fff;
+                }
+            }
+        }
+    }
+
+    &:nth-of-type(4n+2) {
+
+        .inner {
+            @include gradient(64deg, transparent 50px, #0063a5 0);
+
+            .btn {
+                color: #fff;
+                border: 2px solid #fff;
+
+                &:hover {
+                    color: #0063a5;
+                    background: #fff;
+                }
+            }
+        }
+    }
+
+    &:nth-of-type(4n+3) {
+
+        .inner {
+            @include gradient(245deg, transparent 50px, #95c11f 0);
+
+            .btn {
+                color: #fff;
+                border: 2px solid #fff;
+
+                &:hover {
+                    color: #95c11f;
+                    background: #fff;
+                }
+            }
+        }
+    }
+
+    &:nth-of-type(4n+4) {
+
+        .inner {
+            @include gradient(120deg, transparent 50px, #008d3c 0);
+
+            .btn {
+                color: #fff;
+                border: 2px solid #fff;
+
+                &:hover {
+                    color: #008d3c;
+                    background: #fff;
+                }
+            }
+        }
+    }
+}
+
+.werken-blog-box {
+
+    .inner {
+        position: relative;
+    }
+
+    &:nth-of-type(4n+1) {
+
+        .inner {
+            @include gradient(296deg, transparent 50px, #0063a5 0);
+
+            .btn {
+                color: #fff;
+                border: 2px solid #fff;
+
+                &:hover {
+                    color: #0063a5;
+                    background: #fff;
+                }
+            }
+        }
+    }
+
+    &:nth-of-type(4n+2) {
+
+        .inner {
+            @include gradient(120deg, transparent 50px, #009fe3 0);
+
+            .btn {
+                color: #fff;
+                border: 2px solid #fff;
+
+                &:hover {
+                    color: #009fe3;
+                    background: #fff;
+                }
+            }
+        }
+    }
+
+    &:nth-of-type(4n+3) {
+
+        .inner {
+            @include gradient(245deg, transparent 50px, #95c11f 0);
+
+            .btn {
+                color: #fff;
+                border: 2px solid #fff;
+
+                &:hover {
+                    color: #95c11f;
+                    background: #fff;
+                }
+            }
+        }
+    }
+
+    &:nth-of-type(4n+4) {
+
+        .inner {
+            @include gradient(64deg, transparent 50px, #008d3c 0);
+
+            .btn {
+                color: #fff;
+                border: 2px solid #fff;
+
+                &:hover {
+                    color: #008d3c;
+                    background: #fff;
+                }
+            }
+        }
+    }
+}
+
+.wij-zijn-de-splintersCt{
+    .boxinfo {
+        > .inner {
+            padding: 70px 35px;
+            @media screen and (max-width: 991px) {
+                padding: 50px 15px;
+            }
+        }
+    }
+}

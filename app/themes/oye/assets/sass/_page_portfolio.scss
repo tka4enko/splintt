@@ -1,0 +1,252 @@
+/*page portfolio*/
+.portfolioCt {
+
+    .portfolio-posts {
+        position: relative;
+        z-index: 99;
+        margin-top: 100px;
+
+        .categorySelect {
+            margin: 0 auto;
+            border: none;
+            outline: none;
+            padding: 10px 15px;
+            color: #8b8b8b;
+            font-family: 'SohoGothicStd-Medium';
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background: transparent url("../images/icons/arrow-down.svg") no-repeat right center;
+            background-size: 15px;
+        }
+
+		.categorySelect{
+			color: #be0d7e;
+			border-bottom: 4px solid #be0d7e;
+			margin-bottom: 35px;
+			background: transparent url("../images/icons/arrow-down-pink.svg") no-repeat right center;
+			background-size: 15px;
+		}
+
+        .list{
+            margin-bottom:100px;
+            li{
+                display: inline-block;
+                padding: 0 25px;
+                height: 80px;
+                cursor: pointer;
+                color: #8b8b8b;
+                font-size: 18px;
+                span{
+                    display: block;
+                    padding: 25px 0;
+                }
+                &.active{
+                    color: #be0d7e;
+                    span{
+                       border-bottom: 4px solid #be0d7e; 
+                    }
+                }
+                
+            }
+        }
+    }
+
+    .section-portfoliomore {
+        position: relative;
+        z-index: 99;
+    }
+
+    .wrapper-box {
+        margin-bottom: 40px;
+        color: #fff;
+        .inner {
+            padding: 75px 40px 40px;
+        }
+        .right-side,
+        .left-side {
+            p {
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+
+            .robeco {
+                max-height: 60px;
+                margin-bottom: 20px;
+            }
+
+            span {
+                font-size: 16px;
+            }
+
+            ul{
+                margin-bottom:40px;
+
+                li{
+                    line-height: 30px;
+                    font-size: 16px;
+                    .iconc-checkmark{
+                        margin-right: 10px;
+                        font-size: 9px;
+                    }
+                }
+
+                &.has-indent {
+                    li {
+                        padding-left: 23px;
+                        text-indent: -23px;
+                    }
+                }
+            }
+        }
+
+        .right-side {
+            position: relative;
+            overflow: hidden;
+            .cut {
+                // -webkit-transform: rotate(60deg);
+                // -moz-transform: rotate(60deg);
+                // -ms-transform: rotate(60deg);
+                // -o-transform: rotate(60deg);
+                // transform: rotate(60deg);
+                // width: 258%;
+                // height: 180%;
+                // position: absolute;
+                // left: -686px;
+                // top: -460px;
+
+                overflow: hidden;
+                width: 100%;
+                height: 100%;
+            }
+
+            .image{
+                background-position: right bottom;
+                background-repeat: no-repeat;
+                background-size: cover;
+                // -webkit-transform: rotate(-60deg);
+                // -moz-transform: rotate(-60deg);
+                // -ms-transform: rotate(-60deg);
+                // -o-transform: rotate(-60deg);
+                // transform: rotate(-60deg);  
+                position: absolute;
+                width: 104%;
+                // left: 325px;
+                // top: -54px;
+                height: 100%;
+            }
+
+
+        }
+    }
+    .wie-zijnBtn-div {
+        margin: 80px 0 120px 0;
+    }
+
+    @media screen and (min-width: 992px) and (max-width:1200px){
+        .wrapper-box {
+            .right-side {
+                .cut {
+                    // height: 204%;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 991px) {
+        .wrapper-box {
+            .left-side {
+                p {
+                    font-size: 25px;
+                }
+            }
+            .right-side {
+                .cut {
+                    // height: 257%;
+                }
+
+                img{
+                    left: 397px;
+                    top: -189px;
+                }
+            }
+        }
+
+        .wie-zijnBtn-div {
+            margin: 20px 0 20px 0;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .portfolio-posts {
+            margin-top: 0;
+        }
+        .wrapper-box {
+            margin-bottom: 10px;
+            .left-side{
+                max-width: 300px;
+                /*                .btn{
+                                    max-width: 255px;
+                                }*/
+            }
+            .left-side,
+            .right-side {
+                display: block;
+                padding: 0;
+                margin: auto;
+                /*minheight: 490px;*/
+
+            }
+
+            .right-side {
+                max-height: 275px;
+                max-width: 300px;
+                .cut{
+                    height: 484%;
+                }
+                .image{
+                    left: 339px;
+                    top: -82px;
+                }
+                .cut{
+                    /*min-height: 250px;*/
+                    position: initial;
+                }
+                .image{
+                    position: initial;
+                    min-height: 275px;
+                    -webkit-transform: rotate(0deg);
+                    -moz-transform: rotate(0deg);
+                    -ms-transform: rotate(0deg);
+                    -o-transform: rotate(0deg);
+                    transform: rotate(0deg); 
+                }
+            }
+            .inner {
+                padding: 75px 15px 40px;
+
+                .right-side,
+                .left-side {
+
+                    p {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 325px) {
+        .wrapper-box {
+            .left-side{
+                .btn{
+                    max-width: 255px;
+                }
+            }
+        }
+    }
+
+	.category-selector{
+		&.nice-select{
+			min-width: 110px;
+		}
+	}
+}

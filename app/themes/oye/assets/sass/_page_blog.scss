@@ -1,0 +1,257 @@
+// Blog overview page CSS
+.blogpost-boxes {
+
+    .blog-posts {
+        max-width: 1060px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 100;
+
+        .blog-posts-lists {
+            margin: 0;
+            padding: 0 0 50px 0;
+            overflow: auto;
+
+            li {
+                height: 450px;
+                width: 50%;
+                margin: 0 0 40px 0;
+                float: left;
+                color: #fff;
+                font-family: 'SohoGothicStd-Regular';
+
+
+                &:nth-of-type(even) {
+                    padding: 0 25px 0 12.5px;
+                }
+
+                &:nth-of-type(odd) {
+                    padding: 0 12.5px 0 25px;
+                }
+            }
+
+            .blog-list-inner {
+                width: 100%;
+                height: 100%;
+                padding: 70px 35px;
+            }
+
+            .post-title {
+                font-size: 30px;
+                margin: 0 0 5px;
+                font-family: 'SohoGothicStd-Medium';
+            }
+
+            .post-detail {
+                font-size: 16px;
+            }
+
+            .post-date {
+                margin: 0 15px 0 0;
+            }
+
+            .post-leestijd {
+                i {
+                    display: inline-block;
+                    margin: 0 5px 0 0;
+                    vertical-align: middle;
+                }
+            }
+
+            .post-content {
+                margin: 30px 0 10px;
+                font-size: 18px;
+
+                p {
+                    margin: 0;
+                }
+            }
+
+            .post-author {
+                position: absolute;
+                left: 0;
+                bottom: 60px;
+                width: 100%;
+                padding: 0 35px;
+
+                .post-author-inner {
+                    display: table;
+                    width: 100%;
+                }
+
+                .author-detail {
+                    display: table-cell;
+                    vertical-align: middle;
+                }
+
+                .author-avatar {
+                    display: inline-block;
+                    margin: 0 15px 0 0;
+                    vertical-align: middle;
+
+                    img {
+                        border-radius: 50%;
+                        max-width: 70px;
+                    }
+                }
+
+                .author-title {
+                    font-size: 18px;
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+
+                .author-name {
+                    font-family: 'SohoGothicStd-Medium';
+                }
+
+                .post-link {
+                    display: table-cell;
+                    vertical-align: middle;
+                }
+            }
+        }
+
+        .loadmore-section {
+            padding: 0 10px 180px;
+        }
+    }
+
+    &.blogct-inner {
+
+        .blog-posts {
+            margin: -250px auto 0;
+        }
+    }
+
+    @media screen and (max-width: 991px) {
+        .blog-posts {
+
+            .blog-posts-lists {
+
+                li {
+                    margin: 0 0 20px 0;
+
+                    &:nth-of-type(even) {
+                        padding: 0 20px 0 10px;
+                    }
+
+                    &:nth-of-type(odd) {
+                        padding: 0 10px 0 20px;
+                    }
+                }
+
+                .post-title {
+                    font-size: 26px;
+                }
+
+                .blog-list-inner {
+                    padding: 50px 15px;
+                }
+
+                .post-content {
+                    margin: 10px 0;
+                }
+
+                .post-author {
+                    padding: 0 15px;
+
+                    .author-avatar {
+                        display: block;
+                        margin: 0;
+
+                        img {
+                            max-width: 50px;
+                        }
+                    }
+
+                    .author-title {
+                        display: block;
+                    }
+
+                    .post-link {
+                        vertical-align: bottom;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .blog-posts {
+
+            .blog-posts-lists {
+
+                li {
+                    width: 100%;
+                    float: none;
+                    margin: 0 0 10px 0;
+
+                    &:nth-of-type(even) {
+                        padding: 0 10px;
+                    }
+
+                    &:nth-of-type(odd) {
+                        padding: 0 10px;
+                    }
+                }
+
+                .post-content {
+                    font-size: 16px;
+                }
+
+                .post-author {
+
+                    .author-avatar {
+                        display: inline-block;
+                        margin: 0 15px 0 0;
+                    }
+
+                    .author-title {
+                        display: inline-block;
+                    }
+
+                    .post-link {
+                        vertical-align: middle;
+                    }
+                }
+            }
+
+            .loadmore-section {
+                padding: 25px 10px 75px;
+            }
+        }
+
+         &.blogct-inner {
+
+            .blog-posts {
+                margin: 35px auto 0;
+            }
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .blog-posts {
+
+            .blog-posts-lists {
+
+                .post-author {
+
+                    .author-avatar {
+                        display: block;
+                        margin: 0;
+                    }
+
+                    .author-title {
+                        display: block;
+                    }
+
+                    .post-link {
+                        vertical-align: bottom;
+                    }
+                }
+            }
+        }
+    }
+}
+

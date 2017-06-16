@@ -1,0 +1,36 @@
+.popup-style1 {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    padding: 85px 15px;
+
+    .pattern-bottom {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+    }
+
+    @media screen and (max-width: 767px) {
+        padding: 85px 15px 40px;
+
+        .pattern-bottom {
+            display: none;
+        }
+    }
+}
+
+.popupclose_btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 18px;
+    color: #8b8b8b;
+
+    i {
+        display: inline-block;
+        margin: 0 0 0 20px;
+        vertical-align: middle;
+        font-size: 25px;
+    }
+}
